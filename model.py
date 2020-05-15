@@ -13,6 +13,9 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 from xgboost import XGBClassifier
 
+from sklearn.ensemble import RandomForestClassifier
+import pickle
+
 
 train = pd.read_csv('Data/cardio_train.csv',sep=';')
 
@@ -36,16 +39,22 @@ train=train_std
 
 features=["age", "height", "weight",'ap_hi','ap_lo','smoke','alco','active','cholesterol','gluc']
 
+train.astype(float)
+
 X_train, X_test, y_train, y_test = train_test_split(train[features], train['cardio'], test_size=0.33, random_state=42)
 
-xgb = XGBClassifier(learning_rate=0.01,n_estimators=500)
+RFModel = RandomForestClassifier()
 
 
-xgb.fit(X_train,y_train)
+RFModel.fit(X_train,y_train)
 
 
-y_pred_xgb = xgb.predict(X_test)
+y_pred_xgb = RFModel.predict(X_test)
 
-accuracy = xgb.score(X_test, y_test)
+accuracy = RFModel.score(X_test, y_test)
+
+pickle.dump(RFModel,open('model.pkl','wb'))
+
+
 
 
