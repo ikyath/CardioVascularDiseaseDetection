@@ -2,6 +2,9 @@
 
 *In this repository we are trying to predict Cardiovascular disease (CVD) using patients data in 12 features, such as age, gender, systolic blood pressure, diastolic blood pressure, and etc. This has raised many concerns and research to find ways to prevent CVD among people. While it is said that up to 90% of CVD may be preventable, it is difficult to predict and prevent this disease because it involves many risk factors such as sex, family history, smoking and many more. Data analysis and machine learning methods seem to be a reliable way to explore the patients’ data, identify risk factors, and predict if a person is likely to have CVD or not.*
 
+
+![GitHub Logo](/Images/CVD.jpg)
+
 ### Key facts
 CVDs are the number 1 cause of death globally: more people die annually from CVDs than from any other cause.
 An estimated 17.9 million people died from CVDs in 2016, representing 31% of all global deaths. Of these deaths, 85% are due to heart attack and stroke.
