@@ -1,5 +1,6 @@
 # CardioVascularDiseaseDetection
 
+*In this repository we are trying to predict Cardiovascular disease (CVD) using patients data in 12 features, such as age, gender, systolic blood pressure, diastolic blood pressure, and etc. This has raised many concerns and research to find ways to prevent CVD among people. While it is said that up to 90% of CVD may be preventable, it is difficult to predict and prevent this disease because it involves many risk factors such as sex, family history, smoking and many more. Data analysis and machine learning methods seem to be a reliable way to explore the patients’ data, identify risk factors, and predict if a person is likely to have CVD or not.*
 
 ### Key facts
 CVDs are the number 1 cause of death globally: more people die annually from CVDs than from any other cause.
@@ -26,9 +27,3 @@ deep vein thrombosis and pulmonary embolism – blood clots in the leg veins, wh
 
 Heart attacks and strokes are usually acute events and are mainly caused by a blockage that prevents blood from flowing to the heart or brain. The most common reason for this is a build-up of fatty deposits on the inner walls of the blood vessels that supply the heart or brain. Strokes can also be caused by bleeding from a blood vessel in the brain or from blood clots. The cause of heart attacks and strokes are usually the presence of a combination of risk factors, such as tobacco use, unhealthy diet and obesity, physical inactivity and harmful use of alcohol, hypertension, diabetes and hyperlipidaemia.
 
-### What are the risk factors for cardiovascular disease?
-The most important behavioural risk factors of heart disease and stroke are unhealthy diet, physical inactivity, tobacco use and harmful use of alcohol. The effects of behavioural risk factors may show up in individuals as raised blood pressure, raised blood glucose, raised blood lipids, and overweight and obesity. These “intermediate risks factors” can be measured in primary care facilities and indicate an increased risk of developing a heart attack, stroke, heart failure and other complications.
-
-Cessation of tobacco use, reduction of salt in the diet, consuming fruits and vegetables, regular physical activity and avoiding harmful use of alcohol have been shown to reduce the risk of cardiovascular disease. In addition, drug treatment of diabetes, hypertension and high blood lipids may be necessary to reduce cardiovascular risk and prevent heart attacks and strokes. Health policies that create conducive environments for making healthy choices affordable and available are essential for motivating people to adopt and sustain healthy behaviour.
-
-There are also a number of underlying determinants of CVDs or "the causes of the causes". These are a reflection of the major forces driving social, economic and cultural change – globalization, urbanization and population ageing. Other determinants of CVDs include poverty, stress and hereditary factors.
